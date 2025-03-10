@@ -22,3 +22,12 @@ Following tools were used:
 
 
 The Power BI report is available for your viewing and consideration - Please request access by mail at: g3iumy42j@mozmail.com
+
+Test image:
+
+![webjeda cards jekyll theme]({{site.baseurl}}/images/climate_occitanie_1.png)
+
+Test image responsive:
+
+![webjeda cards responsive jekyll theme]({{site.baseurl}}/images/climate_occitanie_1.png)
+{: .text-center}
