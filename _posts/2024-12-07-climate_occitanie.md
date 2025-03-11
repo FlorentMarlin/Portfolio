@@ -42,15 +42,47 @@ Following tools were used:
 
 The Power BI report is available for your viewing and consideration - Please request access by mail at: g3iumy42j@mozmail.com
 
+Sample slides:
+
 <div class="mt20"></div>
 
 ![webjeda cards jekyll theme]({{site.baseurl}}/images/climate_occitanie_1.png)
+
+<div class="mt20"></div>
+
 ![webjeda cards jekyll theme]({{site.baseurl}}/images/climate_occitanie_2.png)
+
+<div class="mt20"></div>
+
 ![webjeda cards jekyll theme]({{site.baseurl}}/images/climate_occitanie_3.png)
+
+<div class="mt20"></div>
+
 ![webjeda cards jekyll theme]({{site.baseurl}}/images/climate_occitanie_4.png)
+
+<div class="mt20"></div>
+
 ![webjeda cards jekyll theme]({{site.baseurl}}/images/climate_occitanie_5.png)
+
+<div class="mt20"></div>
+
 ![webjeda cards jekyll theme]({{site.baseurl}}/images/climate_occitanie_6.png)
+
+<div class="mt20"></div>
+
 ![webjeda cards jekyll theme]({{site.baseurl}}/images/climate_occitanie_7.png)
+
+<div class="mt20"></div>
+
 ![webjeda cards jekyll theme]({{site.baseurl}}/images/climate_occitanie_10.png)
+
+<div class="mt20"></div>
+
 ![webjeda cards jekyll theme]({{site.baseurl}}/images/climate_occitanie_15.png)
+
+<div class="mt20"></div>
+
 ![webjeda cards jekyll theme]({{site.baseurl}}/images/climate_occitanie_20.png)
+
+<div class="mt20"></div>
+
