@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Analysis of Use of Licensed Software "
+title:  "Use of Licensed Software "
 categories: jekyll update
 #image: /images/climate_occitanie_1.png
 ---

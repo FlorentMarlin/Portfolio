@@ -1,11 +1,11 @@
 ---
 layout: post
-title:  "Analysis of HPC Performance"
+title:  "HPC Performance"
 categories: jekyll update
 #image: /images/climate_occitanie_1.png
 ---
 
-Analysis of HPC dysfunction for industry
+Analysis of HPC Dysfunction for industry
 
 This activity was performed in my position as an engineer in the aerospace industry.
 
