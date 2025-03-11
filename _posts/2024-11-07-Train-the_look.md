@@ -2,7 +2,7 @@
 layout: post
 title:  "Dataset 'The Look'"
 categories: jekyll update
-#image: /images/thelook.png
+image: /images/thelook.png
 ---
 
 Analysis of 'The Look' e-commerce dataset (available on Kaggle)
