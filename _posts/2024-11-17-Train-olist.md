@@ -2,7 +2,7 @@
 layout: post
 title:  "Dataset 'Olist'"
 categories: jekyll update
-#image: /images/climate_occitanie_1.png
+image: /images/olist_1.png
 ---
 
 Analysis of 'Olist' Brazilian e-commerce dataset (available on Kaggle)
