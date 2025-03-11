@@ -1,8 +1,8 @@
 ---
 layout: post
-title:  "Dataset 'The Look'"
+title:  "RNN for rivers"
 categories: jekyll update
-#image: /images/RNN.png
+image: /images/RNN.png
 ---
 
 Benchmark of Deep Learning for climate
@@ -49,7 +49,7 @@ The prediction obtained for year 2024, basing on preceding years, is shown below
 
 <div class="mt20"></div>
 
-However, the current model still fails in predicting increased  
+However, the current model is still lacking, in that, at the end of summer, it predicts increased flow rate following heavy rain episodes, while no high water activity was actually measured.
 
 <h3>Way Forward</h3>
 
