@@ -1,18 +1,18 @@
 ---
 layout: post
-title:  "Analysis of HPC Dysfunction"
+title:  "Analysis of HPC Performance"
 categories: jekyll update
 #image: /images/climate_occitanie_1.png
 ---
 
-Automation of calculation for industry
+Analysis of HPC dysfunction for industry
 
-This activity was performed in my positions as an engineer in the aerospace industry.
+This activity was performed in my position as an engineer in the aerospace industry.
 
 
 <h3>Context</h3>
 
-Unitary tasks of numerical analysis, were submitted to the HPC as jobs for a LSF queueing system.
+Unitary tasks of numerical analysis, were submitted to the HPC (High Performance Cluster) as jobs for a LSF queueing system.
 
 It appeared that a proportion of submitted jobs, basing on Python-code written by my team, were not processed, i.e. were marked as 'exited', while not being executed not errored.
 
