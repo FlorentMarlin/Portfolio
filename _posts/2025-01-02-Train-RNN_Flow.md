@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "RNN for river flow prediction"
+title:  "RNN for river prediction"
 categories: jekyll update
 image: /images/RNN.png
 ---

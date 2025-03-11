@@ -82,7 +82,7 @@ The aim of this tool is to accelerate the prediction of crack initiation at rive
 
 This is a highly time-consuming activity, as a single location typically requires a few hours analysis from a well-practised analyst.
 
-As the automated process allows to reduce the analysis-time by 100, this tool allows to have a vision of approximated margins for Fatigue on a large scale (i.e. dozens of thousands of locations) in the timeframe of one day.
+As the automated process allows to reduce the analysis-time by a factor 100, this tool allows to have a vision of approximated margins for Fatigue on a large scale (i.e. dozens of thousands of locations) in the timeframe of one day.
 
 No approximation is made by the tool.
 
