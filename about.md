@@ -4,12 +4,15 @@ title: About
 permalink: /about/
 ---
 
-Webjeda cards is a Bootstrap based theme. Any Bootstrap element can be used in the theme. Read [Webjeda Blog](http://blog.webjeda.com){: target="\_blank"} for jekyll tutorials.
+Hello !
 
-For more themes, visit [jekyll-themes](https://jekyll-themes.com){: target="\_blank"}
+I am Florent Marlin,
 
-**Does the theme deserve a star?**
+I have worked as an engineer in the aerospace industry for over 20 years,
+and I moved from being a structural analyst ... to developing analysis-tools and supporting fellow analysts.
 
-<a class="github-button" href="https://github.com/sharu725/cards" data-style="mega" data-count-href="/sharu725/cards/stargazers" data-count-api="/repos/sharu725/cards#stargazers_count" data-count-aria-label="# stargazers on GitHub" aria-label="Star sharu725/cards on GitHub">Star</a>
+My interests in programming, data-handling and problem-solving have always infused my professional career.
+
+This portfolio aims at presenting some of my works, in professional and personal contexts.
 
 <script async defer src="https://buttons.github.io/buttons.js"></script>
