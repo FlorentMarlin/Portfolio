@@ -9,7 +9,7 @@ Benchmark of Deep Learning
 
 This study was performed as part my self-training for Deep Learning.
 
-<h1>Context<h1>
+<h1>Context</h1>
 
 The structural analysis of aircraft components involves the use of specific criteria for the fatigue (i.e. aging) of metallic parts.
 For flat/thin components, this requires the prediction of the direction and magnitude of the maximum fatigue damage, in a 2D-plane.
@@ -30,7 +30,7 @@ The typical shapes of the evolution of damage-criterion vs. angle fall into the 
 The question was whether the complete set of results: criterion vs. angle could be inferred by a limited set of known values (e.g. 3), i.e. whether a whole curve (size=18) could be derived from 3 supporting values.
 
 
-<h1>Development<h1>
+<h1>Development</h1>
 
 The database consisted in approx. 100 000 curves.
 
@@ -38,7 +38,7 @@ A Neural Network was trained, with tuning of its hyperparameters.
 
 On the images above, the filled-curves are the target values, while the 15 markers are the values predicted by the model, basing on the not-shown 3 supporting values at angles [50, 90, 140].
 
-<h1>Result<h1>
+<h1>Result</h1>
 
 The model is successful at predicting the direction and magnitude of the maximum fatigue damage, with a 5% error.
 
@@ -56,7 +56,7 @@ Therefore a three-step approach can be proposed:
 
 The present POC shows the potential for a reduction of time and cost by a factor 6, at the expense of setting-up a multi-step approach involving a regression-model.
 
-<h1>Details<h1>
+<h1>Details</h1>
 
 The following ressources were notably studied:
 <ul class="list-group">
