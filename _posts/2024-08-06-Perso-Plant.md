@@ -23,7 +23,9 @@ I wish to understand what is the origin of its condition,
 
 <h3>Development</h3>
 
-I measured a number of metrics, that would act as inputs for the analysis:<ul class="list-group">
+I measured a number of metrics, that would act as inputs for the analysis:
+
+<ul class="list-group">
   <li class="list-group-item">Temperature</li>
   <li class="list-group-item">Air humidity</li>
   <li class="list-group-item">Luminosity</li>
@@ -107,6 +109,8 @@ Following tools were notably used:
   <li class="list-group-item">OpenCV</li>
   <li class="list-group-item">Picamera / Libcamera</li>
 </ul>
+
+<div class="mt20"></div>
 
 The following ressources were notably used:
 <ul class="list-group">
