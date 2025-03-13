@@ -2,7 +2,7 @@
 layout: post
 title:  "Plant Health"
 categories: jekyll update
-image: /images/ndvi_from_2_images.png
+image: /images/ndvi_from_2_images.jpg
 ---
 
 Monitoring of plant health
@@ -17,7 +17,7 @@ I wish to understand what is the origin of its condition,
 
 ... With the additional challenge in 2024: to allow it to survive the ever-increasing temperatures (extremes up to 50 degrees Celsius).
 
-![webjeda cards jekyll theme]({{site.baseurl}}/images/20240813_202827.png)
+![webjeda cards jekyll theme]({{site.baseurl}}/images/20240813_202827.jpg)
 <div class="mt20"></div>
 
 
@@ -39,10 +39,14 @@ The measurement instruments are a collection of Raspberry Pi -based (Zero and Pi
 
 
 
-![webjeda cards jekyll theme]({{site.baseurl}}/images/20240813_202812.png)
+![webjeda cards jekyll theme]({{site.baseurl}}/images/20240813_202812.jpg)
 <div class="mt20"></div>
 
 I currently own 9 months of measurements, at 5-minute resolution.
+
+
+![webjeda cards jekyll theme]({{site.baseurl}}/images/moisture.png)
+<div class="mt20"></div>
 
 I imagined that the output metric could be the NDVI (Neutral Density Vegetation Index), to quantify the condition of the tree, building on the observation that notably the color of leaves reflects its well-being.
 
@@ -50,7 +54,7 @@ The NDVI was generated using two parallel-assembled Raspberry Pi Zero's, with di
 
 ... and by processing the image layers.
 
-![webjeda cards jekyll theme]({{site.baseurl}}/images/matches.png)
+![webjeda cards jekyll theme]({{site.baseurl}}/images/matches.jpg)
 <div class="mt20"></div>
 
 
@@ -70,7 +74,7 @@ The fig-tree survived the summer 2024.
 
 NDVI maps were generated:
 
-![webjeda cards jekyll theme]({{site.baseurl}}/images/ndvi_from_2_images.png)
+![webjeda cards jekyll theme]({{site.baseurl}}/images/ndvi_from_2_images.jpg)
 <div class="mt20"></div>
 
 The NDVI criterion seems to be a non-viable metric for my needs:
