@@ -2,7 +2,7 @@
 layout: post
 title:  "Running App"
 categories: jekyll update
-image: /images/2024-06-10.png
+image: /images/2024-07-29.png
 ---
 
 Processing of running data
@@ -41,7 +41,7 @@ Curves were separated and rebuilt using the pixel-map.
 
 Curves were then smoothed to a usable resolution:
 
-![webjeda cards jekyll theme]({{site.baseurl}}/images/2024-06-10.png)
+![webjeda cards jekyll theme]({{site.baseurl}}/images/2024-07-29.png)
 <div class="mt20"></div>
 
 <h3>Result</h3>
