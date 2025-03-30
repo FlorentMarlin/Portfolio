@@ -57,6 +57,9 @@ h4 {
 h5 {
   counter-reset: h6;
 }
+h6 {
+  counter-reset: h7;
+}
 
 h2::before {
   counter-increment: h2;
@@ -76,5 +79,5 @@ h5::before {
 }
 h6::before {
   counter-increment: h6;
-  content: counter(h1) "." counter(h2) "." counter(h2) ". " counter(h4) ". " counter(h5) ". " counter(h6) ". ";
+  content: counter(h1) "." counter(h2) "." counter(h3) ". " counter(h4) ". " counter(h5) ". " counter(h6) ". ";
 }
