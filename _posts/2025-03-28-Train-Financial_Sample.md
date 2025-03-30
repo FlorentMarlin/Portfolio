@@ -18,7 +18,7 @@ The present post is broken down into the two following sections:
 </ul>
 
 
-<h3>Exploratory Data Analysis</h3>
+<h1>Exploratory Data Analysis</h1>
 
 The dataset has 16 columns and 700 rows.
 
@@ -145,7 +145,7 @@ Therefore the dataset might correspond to a larger manufacturer, but the magnitu
 <h5>Analysis of sales over categories</h5>
 
 
-<h6>Analysis of sales over customer segments</h6>
+<h2>Analysis of sales over customer segments</h2>
 
 Customer segment considered as a category, all other features (Country, Product, Discount Band) summed.
 
@@ -171,7 +171,7 @@ The negative profit related to segment 'Enterprise' might be a concern, as it of
 It is also remarkable that the profit associated with segment 'Small Business' (25% of total) is not in line with the proportion of Sales (36%).
 
 
-<h6>Analysis of sales over countries</h6>
+<h2>Analysis of sales over countries</h2>
 
 
 <span class="badge bg-primary">Units sold by Country - Bar-chart</span>
@@ -190,7 +190,7 @@ Profits have the same magnitude for all five countries. France, Germany and Cana
 
 It might be worth taking into account the size of relative markets (e.g. using country population) to derive specific performance for individual countries.
 
-<h6>Analysis of sales over products</h6>
+<h2>Analysis of sales over products</h2>
 
 
 <span class="badge bg-success">Units sold by Product - Bar-chart</span>
@@ -214,18 +214,18 @@ The relation between Profit and Sales is similar for all 6 products, with produc
 
 
 
-<h6>Analysis of sale price</h6>
+<h2>Analysis of sale price</h2>
 
 It is understood that the Sale Price depends on the Product (i.e. type of bike)
 
 With Sale Price (i.e. by product unit) varying by a factor 50 over the dataset for consumer goods (bikes), I want to understand to variation.
 
 
-<span class="badge bg-warning">Count of Sale Price - Matrix</span>
+<span class="badge bg-success">Count of Sale Price - Matrix</span>
 
 Each combination of features ( Product ; Segment ; Country ) has one single Sale Price across the dataset, except for the segment 'Government', that has 3 different values of Sale Price.
 
-<span class="badge bg-warning">Sale Price - Matrix</span>
+<span class="badge bg-success">Sale Price - Matrix</span>
 
 For all segments except 'Government', ...
 
@@ -252,7 +252,7 @@ No trend can be seen with the size of the target customer (i.e. there is no cont
 Possibly the pricing logic is strategic.
 
 
-<h6>Analysis of discounts</h6>
+<h2>Analysis of discounts</h2>
 
 Cumulated discounts amount to 7% of total sales.
 
@@ -310,7 +310,7 @@ A bar-chart shows
 
 
 
-<h3>Storytelling report</h3>
+<h1>Storytelling report</h1>
 
 
 The dataset 'Olist' consists in real life e-commerce data.
