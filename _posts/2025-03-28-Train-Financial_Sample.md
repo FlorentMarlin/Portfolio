@@ -20,6 +20,9 @@ The present post is broken down into the two following sections:
 
 <h1>Exploratory Data Analysis</h1>
 
+
+<h2>Preliminary Analysis</h2>
+
 The dataset has 16 columns and 700 rows.
 
 The dataset appears to show sales data for products, some of which might be bicycles (inferred by the French terms 'Velo' and 'VTT', and by the Spanish terms for the intended road use in column: 'Product').
@@ -55,7 +58,7 @@ The order of magnitude of the number of records in the dataset (700) is in line 
 
 Given the resolution of dates (one row -> the first day of a month) and the amount of sold products on a given row (typically hundreds to thousands), each record is probably an aggregation of sales for one month, and for one combination of sales-parameters.
 
-<h5>Data dictionary</h5>
+<h3>Data dictionary</h3>
 
 This is my understanding of the different features in the original dataset:
 
@@ -74,7 +77,7 @@ This is my understanding of the different features in the original dataset:
 </ul>
 
 
-<h5>Relations between features</h5>
+<h3>Relations between features</h3>
 
 The following relations between numerical features were found again:
 <ul>
@@ -84,7 +87,7 @@ The following relations between numerical features were found again:
 </ul>
 
 
-<h5>Analysis of numerical features</h5>
+<h3>Analysis of numerical features</h3>
 
 The unit of prices and costs is not determined.
 
@@ -104,7 +107,7 @@ The columns 'Year', 'Month Name' and 'Month Number' are verified as being extrac
 
 
 
-<h5>Possible analysis</h5>
+<h3>Possible analysis</h3>
 
 The present dataset lends itself to the following types of studies
 <ul>
@@ -113,7 +116,7 @@ The present dataset lends itself to the following types of studies
 </ul>
 
 
-<h5>Analysis of revenue</h5>
+<h2>Analysis of revenue</h2>
 
 For the whole activity covered by the dataset (2013-2014):
 <ul>
@@ -142,10 +145,10 @@ For reference, Giant, the world's largest bicycle designer and manufacturer, has
 Therefore the dataset might correspond to a larger manufacturer, but the magnitude of the margin is exceptional for an industry.
 
 
-<h5>Analysis of sales over categories</h5>
+<h2>Analysis of sales over categories</h2>
 
 
-<h2>Analysis of sales over customer segments</h2>
+<h3>Analysis of sales over customer segments</h3>
 
 Customer segment considered as a category, all other features (Country, Product, Discount Band) summed.
 
@@ -171,7 +174,7 @@ The negative profit related to segment 'Enterprise' might be a concern, as it of
 It is also remarkable that the profit associated with segment 'Small Business' (25% of total) is not in line with the proportion of Sales (36%).
 
 
-<h2>Analysis of sales over countries</h2>
+<h3>Analysis of sales over countries</h3>
 
 
 <span class="badge bg-primary">Units sold by Country - Bar-chart</span>
@@ -190,7 +193,7 @@ Profits have the same magnitude for all five countries. France, Germany and Cana
 
 It might be worth taking into account the size of relative markets (e.g. using country population) to derive specific performance for individual countries.
 
-<h2>Analysis of sales over products</h2>
+<h3>Analysis of sales over products</h3>
 
 
 <span class="badge bg-success">Units sold by Product - Bar-chart</span>
@@ -214,7 +217,7 @@ The relation between Profit and Sales is similar for all 6 products, with produc
 
 
 
-<h2>Analysis of sale price</h2>
+<h3>Analysis of sale price</h3>
 
 It is understood that the Sale Price depends on the Product (i.e. type of bike)
 
@@ -252,7 +255,7 @@ No trend can be seen with the size of the target customer (i.e. there is no cont
 Possibly the pricing logic is strategic.
 
 
-<h2>Analysis of discounts</h2>
+<h3>Analysis of discounts</h3>
 
 Cumulated discounts amount to 7% of total sales.
 
@@ -265,7 +268,7 @@ I create a column for the percentage of discount per record.
 
 <span class="badge bg-success">Discount percentage - Matrix</span>
 
-When viewing the discount percentage for each combination of features (Discount Band ; Segment ; Country ), while there some variations, the trend is clear: the magniutde of discount depends on the Discount Band
+When viewing the discount percentage for each combination of features (Discount Band ; Segment ; Country ), while there some variations, the trend is clear: the magnitude of discount depends on the Discount Band:
 <ul>
   <li>None: 0% discount</li>
   <li>Low: 2% discount as an average</li>
@@ -273,6 +276,9 @@ When viewing the discount percentage for each combination of features (Discount 
   <li>High: 13% discount as an average</li>
 </ul>
 
+<span class="badge bg-warning">Margin percentage vs. Discount percentage - Scatter-chart</span>
+
+Mapping the average margin percentage vs. the discount percentage by segmenting by either Segment, or  Country does not show a trend.
 
 <span class="badge bg-success">Margin percentage vs. Discount percentage - Scatter-chart</span>
 
@@ -280,7 +286,7 @@ Mapping the average margin percentage vs. the discount percentage by segmenting 
 
 
 
-<h5>Analysis of sales over time</h5>
+<h2>Analysis of sales over time</h2>
 
 
 Data is only available for the last third of year 2013. Hence a comparison between 2013 and 2014 is only possible for a partial year.
