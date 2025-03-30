@@ -18,10 +18,10 @@ The present post is broken down into the two following sections:
 </ul>
 
 
-<h1>Exploratory Data Analysis</h1>
+<h2>Exploratory Data Analysis</h2>
 
 
-<h2>Preliminary Analysis</h2>
+<h3>Preliminary Analysis</h3>
 
 The dataset has 16 columns and 700 rows.
 
@@ -58,7 +58,7 @@ The order of magnitude of the number of records in the dataset (700) is in line 
 
 Given the resolution of dates (one row -> the first day of a month) and the amount of sold products on a given row (typically hundreds to thousands), each record is probably an aggregation of sales for one month, and for one combination of sales-parameters.
 
-<h3>Data dictionary</h3>
+<h4>Data dictionary</h4>
 
 This is my understanding of the different features in the original dataset:
 
@@ -77,7 +77,7 @@ This is my understanding of the different features in the original dataset:
 </ul>
 
 
-<h3>Relations between features</h3>
+<h4>Relations between features</h4>
 
 The following relations between numerical features were found again:
 <ul>
@@ -87,7 +87,7 @@ The following relations between numerical features were found again:
 </ul>
 
 
-<h3>Analysis of numerical features</h3>
+<h4>Analysis of numerical features</h4>
 
 The unit of prices and costs is not determined.
 
@@ -107,7 +107,7 @@ The columns 'Year', 'Month Name' and 'Month Number' are verified as being extrac
 
 
 
-<h3>Possible analysis</h3>
+<h4>Possible analysis</h4>
 
 The present dataset lends itself to the following types of studies
 <ul>
@@ -116,7 +116,7 @@ The present dataset lends itself to the following types of studies
 </ul>
 
 
-<h2>Analysis of revenue</h2>
+<h3>Analysis of revenue</h3>
 
 For the whole activity covered by the dataset (2013-2014):
 <ul>
@@ -145,10 +145,10 @@ For reference, Giant, the world's largest bicycle designer and manufacturer, has
 Therefore the dataset might correspond to a larger manufacturer, but the magnitude of the margin is exceptional for an industry.
 
 
-<h2>Analysis of sales over categories</h2>
+<h3>Analysis of sales over categories</h3>
 
 
-<h3>Analysis of sales over customer segments</h3>
+<h4>Analysis of sales over customer segments</h4>
 
 Customer segment considered as a category, all other features (Country, Product, Discount Band) summed.
 
@@ -174,7 +174,7 @@ The negative profit related to segment 'Enterprise' might be a concern, as it of
 It is also remarkable that the profit associated with segment 'Small Business' (25% of total) is not in line with the proportion of Sales (36%).
 
 
-<h3>Analysis of sales over countries</h3>
+<h4>Analysis of sales over countries</h4>
 
 
 <span class="badge bg-primary">Units sold by Country - Bar-chart</span>
@@ -193,7 +193,7 @@ Profits have the same magnitude for all five countries. France, Germany and Cana
 
 It might be worth taking into account the size of relative markets (e.g. using country population) to derive specific performance for individual countries.
 
-<h3>Analysis of sales over products</h3>
+<h4>Analysis of sales over products</h4>
 
 
 <span class="badge bg-success">Units sold by Product - Bar-chart</span>
@@ -217,7 +217,7 @@ The relation between Profit and Sales is similar for all 6 products, with produc
 
 
 
-<h3>Analysis of sale price</h3>
+<h4>Analysis of sale price</h4>
 
 It is understood that the Sale Price depends on the Product (i.e. type of bike)
 
@@ -255,7 +255,7 @@ No trend can be seen with the size of the target customer (i.e. there is no cont
 Possibly the pricing logic is strategic.
 
 
-<h3>Analysis of discounts</h3>
+<h4>Analysis of discounts</h4>
 
 Cumulated discounts amount to 7% of total sales.
 
@@ -286,7 +286,7 @@ Mapping the average margin percentage vs. the discount percentage by segmenting 
 
 
 
-<h2>Analysis of sales over time</h2>
+<h3>Analysis of sales over time</h3>
 
 
 Data is only available for the last third of year 2013. Hence a comparison between 2013 and 2014 is only possible for a partial year.
@@ -316,7 +316,7 @@ A bar-chart shows
 
 
 
-<h1>Storytelling report</h1>
+<h2>Storytelling report</h2>
 
 
 The dataset 'Olist' consists in real life e-commerce data.
