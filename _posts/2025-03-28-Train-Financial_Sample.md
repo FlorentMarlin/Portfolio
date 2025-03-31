@@ -348,7 +348,7 @@ Mapping the number of units sold vs. the discount percentage by segmenting by Mo
 
 <span class="badge bg-secondary">Number of sales records vs. Discount percentage - Scatter-chart</span>
 
-![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_units_count_discount_scatter.png.png)
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_units_count_discount_scatter.png)
 <div class="mt20"></div>
 
 Mapping the number of sale records vs. the discount percentage by segmenting by Month allows to reveal a soft trend. Though, by month, there are either 35 or 70 sales records, the mathematical trend is the number of sales records increases with the level of discount percentage.
@@ -403,7 +403,13 @@ For 2014, the months of October and December and June have the largest number of
 
 <span class="badge bg-success">Units sold - Bar-chart</span>
 
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_month_units_2013.png)
+<div class="mt20"></div>
+
 For 2013, the month of October has the largest number of units sold.
+
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_month_units_2014.png)
+<div class="mt20"></div>
 
 For 2014, the months of October and December and June have the largest number of units sold.
 
@@ -480,7 +486,7 @@ As seen before, the Sale Prices for the different products vary. In particular t
 
 Notably, the Sale Price averaged over all products remains absolutely constant over the period.
 
-![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_time_sale_price_paseo.png.png)
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_time_sale_price_paseo.png)
 <div class="mt20"></div>
 
 Viewing the evolution of the Sale Price along the period, discrimated by Product, allows to see the specific sharp increase in Sale Price for the Product 'Paseo', and for November 2014 (x4 vs. previous month).
