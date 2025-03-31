@@ -221,7 +221,7 @@ It might be worth taking into account the size of relative markets (e.g. using c
 
 <span class="badge bg-success">Units sold by Product - Bar-chart</span>
 
-![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_product_unnits.png)
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_product_units.png)
 <div class="mt20"></div>
 
 The product 'Paseo' (interpreted as a bike for easy roads and use) represents 30% of all products sold in numbers.
