@@ -18,10 +18,10 @@ The present post is broken down into the two following sections:
 </ul>
 
 
-<h4>Exploratory Data Analysis</h4>
+<h3>Exploratory Data Analysis</h3>
 
 
-<h5>Preliminary Analysis</h5>
+<h4>Preliminary Analysis</h4>
 
 The dataset has 16 columns and 700 rows.
 
@@ -58,7 +58,7 @@ The order of magnitude of the number of records in the dataset (700) is in line 
 
 Given the resolution of dates (one row -> the first day of a month) and the amount of sold products on a given row (typically hundreds to thousands), each record is probably an aggregation of sales for one month, and for one combination of sales-parameters.
 
-<h6>Data dictionary</h6>
+<h5>Data dictionary</h5>
 
 This is my understanding of the different features in the original dataset:
 
@@ -77,7 +77,7 @@ This is my understanding of the different features in the original dataset:
 </ul>
 
 
-<h6>Relations between features</h6>
+<h5>Relations between features</h5>
 
 The following relations between numerical features were found again:
 <ul>
@@ -87,7 +87,7 @@ The following relations between numerical features were found again:
 </ul>
 
 
-<h6>Analysis of numerical features</h6>
+<h5>Analysis of numerical features</h5>
 
 The unit of prices and costs is not determined.
 
@@ -107,7 +107,7 @@ The columns 'Year', 'Month Name' and 'Month Number' are verified as being extrac
 
 
 
-<h6>Possible analysis</h6>
+<h5>Possible analysis</h5>
 
 The present dataset lends itself to the following types of studies
 <ul>
@@ -116,7 +116,7 @@ The present dataset lends itself to the following types of studies
 </ul>
 
 
-<h5>Analysis of revenue</h5>
+<h4>Analysis of revenue</h4>
 
 For the whole activity covered by the dataset (2013-2014):
 <ul>
@@ -145,10 +145,10 @@ For reference, Giant, the world's largest bicycle designer and manufacturer, has
 Therefore the dataset might correspond to a larger manufacturer, but the magnitude of the margin is exceptional for an industry.
 
 
-<h5>Analysis of sales over categories</h5>
+<h4>Analysis of sales over categories</h4>
 
 
-<h6>Analysis of sales over customer segments</h6>
+<h5>Analysis of sales over customer segments</h5>
 
 Customer segment considered as a category, all other features (Country, Product, Discount Band) summed.
 
@@ -174,7 +174,7 @@ The negative profit related to segment 'Enterprise' might be a concern, as it of
 It is also remarkable that the profit associated with segment 'Small Business' (25% of total) is not in line with the proportion of Sales (36%).
 
 
-<h6>Analysis of sales over countries</h6>
+<h5>Analysis of sales over countries</h5>
 
 
 <span class="badge bg-primary">Units sold by Country - Bar-chart</span>
@@ -193,7 +193,7 @@ Profits have the same magnitude for all five countries. France, Germany and Cana
 
 It might be worth taking into account the size of relative markets (e.g. using country population) to derive specific performance for individual countries.
 
-<h6>Analysis of sales over products</h6>
+<h5>Analysis of sales over products</h5>
 
 
 <span class="badge bg-success">Units sold by Product - Bar-chart</span>
@@ -217,7 +217,7 @@ The relation between Profit and Sales is similar for all 6 products, with produc
 
 
 
-<h6>Analysis of sale price</h6>
+<h5>Analysis of sale price</h5>
 
 It is understood that the Sale Price depends on the Product (i.e. type of bike)
 
@@ -255,7 +255,7 @@ No trend can be seen with the size of the target customer (i.e. there is no cont
 Possibly the pricing logic is strategic.
 
 
-<h6>Analysis of discounts</h6>
+<h5>Analysis of discounts</h5>
 
 Cumulated discounts amount to 7% of total sales.
 
@@ -286,13 +286,13 @@ Mapping the average margin percentage vs. the discount percentage by segmenting 
 
 
 
-<h5>Analysis of sales over time</h5>
+<h4>Analysis of sales over time</h4>
 
 Data is only available for the last third of year 2013. Hence a comparison between 2013 and 2014 is only possible for a partial year.
 
 For one given year, the magnitude of sales, and the fact that they are already aggregated, allow a representative comparison between months.
 
-<h6>Analysis of time of year</h6>
+<h5>Analysis of time of year</h5>
 
 The analysis of the time of year is performed at the level of the month.
 
@@ -323,7 +323,7 @@ For 2014, the months of October and December and June have the largest number of
 
 The trend observed for several figures would hint on busy Q4's, if it wasn't for the poor performance of month of November 2014.
 
-<h6>Analysis of evolution</h6>
+<h5>Analysis of evolution</h5>
 
 <span class="badge bg-secondary">Sales - Line-chart</span>
 A line-chart shows that sales fluctuate, with up's and down's from one month to another. No visible trend can be seen.
@@ -335,6 +335,6 @@ The superimposition of the partial year 2013 with the complete year 2014 only hi
 
 
 
-<h4>Storytelling report</h4>
+<h3>Storytelling report</h3>
 
 
