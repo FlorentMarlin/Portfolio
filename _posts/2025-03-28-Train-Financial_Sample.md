@@ -2,7 +2,7 @@
 layout: post
 title:  "Dataset 'Financial Sample'"
 categories: jekyll update
-image: /images/olist_1.png
+image: /images/train_finance_dashboard_1.png
 ---
 
 Analysis of <a href='https://learn.microsoft.com/en-us/power-bi/create-reports/sample-financial-download'>Microsoft's 'Financial Sample' dataset</a>.
@@ -154,15 +154,24 @@ Customer segment considered as a category, all other features (Country, Product,
 
 <span class="badge bg-success">Units sold by Segment - Bar-chart</span>
 
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_segment_units.png)
+<div class="mt20"></div>
+
 Government represents 42% of all products sold in numbers.
 
 Other segments constitute about 15% of the total each.
 
 <span class="badge bg-success">Sales by Segment - Bar-chart</span>
 
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_segment_sales.png)
+<div class="mt20"></div>
+
 Government, Small Business and Enterprise are the dominant contributors to sales. Midmarket and Channel Partners are very small in comparison.
 
 <span class="badge bg-success">Profit by Segment - Bar-chart</span>
+
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_segment_profit.png)
+<div class="mt20"></div>
 
 Government is the dominant contributor to profit. Small Business comes second and is three times less. Midmarket and Channel Partners are very small in comparison.
 
@@ -179,13 +188,22 @@ It is also remarkable that the profit associated with segment 'Small Business' (
 
 <span class="badge bg-primary">Units sold by Country - Bar-chart</span>
 
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_country_units.png)
+<div class="mt20"></div>
+
 Profits have the same magnitude for all five countries. Canada, France and USA form a group with more units sold. Mexico and Germany have slightly less units sold.
 
 <span class="badge bg-primary">Sales by Country - Bar-chart</span>
 
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_country_sales.png)
+<div class="mt20"></div>
+
 Sales are almost evenly distributed between the five countries. Mexico has slightly less sales.
 
 <span class="badge bg-primary">Profit by Country - Bar-chart</span>
+
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_country_profit.png)
+<div class="mt20"></div>
 
 
 Profits have the same magnitude for all five countries. France, Germany and Canada form a group with higher profits. USA and Mexico have slightly less profit.
@@ -198,6 +216,9 @@ It might be worth taking into account the size of relative markets (e.g. using c
 
 <span class="badge bg-success">Units sold by Product - Bar-chart</span>
 
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_product_unnits.png)
+<div class="mt20"></div>
+
 The product 'Paseo' (interpreted as a bike for easy roads and use) represents 30% of all products sold in numbers.
 
 The other 5 products constitute about 14% of the total each.
@@ -205,13 +226,22 @@ The other 5 products constitute about 14% of the total each.
 
 <span class="badge bg-success">Sales by Product - Bar-chart</span>
 
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_product_sales.png)
+<div class="mt20"></div>
+
 The product 'Paseo' contributes to outstanding sales.
 
 <span class="badge bg-success">Profit by Product - Bar-chart</span>
 
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_product_profit.png)
+<div class="mt20"></div>
+
 The product 'Paseo' contributes to outstanding profit.
 
 <span class="badge bg-success">Profit by Product - Scatter-chart</span>
+
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_product_profit_vs_sales.png)
+<div class="mt20"></div>
 
 The relation between Profit and Sales is similar for all 6 products, with products 'VTT' and 'Amarilla' producing profit above the average of the whole product range.
 
@@ -226,9 +256,15 @@ With Sale Price (i.e. by product unit) varying by a factor 50 over the dataset f
 
 <span class="badge bg-success">Count of Sale Price - Matrix</span>
 
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_sale_price_count_matrix.png)
+<div class="mt20"></div>
+
 Each combination of features ( Product ; Segment ; Country ) has one single Sale Price across the dataset, except for the segment 'Government', that has 3 different values of Sale Price.
 
 <span class="badge bg-success">Sale Price - Matrix</span>
+
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_sale_price_matrix.png)
+<div class="mt20"></div>
 
 For all segments except 'Government', ...
 
@@ -257,6 +293,9 @@ Possibly the pricing logic is strategic.
 
 <h5>Analysis of discounts</h5>
 
+
+<h6>Discounts and margin</h6>
+
 Cumulated discounts amount to 7% of total sales.
 
 I want to study how discounts affect the margin.
@@ -264,9 +303,10 @@ I want to study how discounts affect the margin.
 I create a column for the percentage of discount per record.
 
 
-
-
 <span class="badge bg-success">Discount percentage - Matrix</span>
+
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_discount_matrix.png)
+<div class="mt20"></div>
 
 When viewing the discount percentage for each combination of features (Discount Band ; Segment ; Country ), while there some variations, the trend is clear: the magnitude of discount depends on the Discount Band:
 <ul>
@@ -278,12 +318,40 @@ When viewing the discount percentage for each combination of features (Discount 
 
 <span class="badge bg-warning">Margin percentage vs. Discount percentage - Scatter-chart</span>
 
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_discount_scatter_1.png)
+<div class="mt20"></div>
+
 Mapping the average margin percentage vs. the discount percentage by segmenting by either Segment, or  Country does not show a trend.
 
 <span class="badge bg-success">Margin percentage vs. Discount percentage - Scatter-chart</span>
 
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_discount_scatter_2.png)
+<div class="mt20"></div>
+
 Mapping the average margin percentage vs. the discount percentage by segmenting by (Segment ; Country : Product ) allows to reveal the trend. One linear trend can be seen for each of the five Segments. The average margin percentage decreases linearly with the discount percentage.
 
+
+<h6>Discounts and units sold</h6>
+
+
+<span class="badge bg-success">Units sold vs. Discount percentage - Scatter-chart</span>
+
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_units_discount_scatter.png)
+<div class="mt20"></div>
+
+Mapping the number of units sold vs. the discount percentage by segmenting by Month allows to reveal a soft trend. Though is there is scatter, the general trend is the number of units sold increases with the level of discount percentage. The positive trend is in fact generated by the end-of-year months: September, October, November and December.
+
+<span class="badge bg-secondary">Number of sales records vs. Discount percentage - Scatter-chart</span>
+
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_units_count_discount_scatter.png.png)
+<div class="mt20"></div>
+
+Mapping the number of sale records vs. the discount percentage by segmenting by Month allows to reveal a soft trend. Though, by month, there are either 35 or 70 sales records, the mathematical trend is the number of sales records increases with the level of discount percentage.
+
+
+Since the months with the most sales (either in terms of units sold, or in terms of sales records) are the end-of-year months: September, October, November and December, it may be argued that the season is driving sales, and not the level of discounts.
+
+Factually, in the dataset, high sales are correlated with higher discounts. Causality might not be provable.
 
 
 <h4>Analysis of sales over time</h4>
@@ -301,7 +369,15 @@ Since the year 2013 is incomplete in the dataset, the comparison between month i
 
 <span class="badge bg-success">Sales - Bar-chart</span>
 
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_month_sales_2013.png)
+<div class="mt20"></div>
+
+
 For 2013, the month of October has the largest revenue.
+
+
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_month_sales_2014.png)
+<div class="mt20"></div>
 
 For 2014, the months of October and December have the largest revenues.
 
@@ -310,7 +386,13 @@ For 2014, the months of October and December have the largest revenues.
 
 Given the pre-aggregated nature of the dataset, this may or may not show the popularity of sales at moments of the year.
 
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_month_sales_count_2013.png)
+<div class="mt20"></div>
+
 For 2013, the month of October has the largest number of sales records.
+
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_month_sales_count_2014.png)
+<div class="mt20"></div>
 
 For 2014, the months of October and December and June have the largest number of sales records.
 
@@ -326,15 +408,85 @@ The trend observed for several figures would hint on busy Q4's, if it wasn't for
 <h5>Analysis of evolution</h5>
 
 <span class="badge bg-secondary">Sales - Line-chart</span>
+
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_time_sales.png)
+<div class="mt20"></div>
+
 A line-chart shows that sales fluctuate, with up's and down's from one month to another. No visible trend can be seen.
 
-The month of November 2014 shows a specific drop in all figures: Sales (Gross and Net, Profit, Discounts).
+The month of November 2014 shows a specific drop in all figures: Sales (Gross and Net, COGS, Profit, Discounts).
 
 The superimposition of the partial year 2013 with the complete year 2014 only highlights the steady performance of the month of October. 
 
 
 
+<h3>Dashboard</h3>
+
+My one-page dashboard aims at providing macroscopic sales figures, allow to study the segmentation of sales, and view the evolution of performance over time.
+
+The bar-chart for segmentation display values for one figure (or more than one, in which case bars are gouped), dynamically with the parameter selected by the user in the associated slicer.
+
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_dashboard_1.png)
+<div class="mt20"></div>
 
 <h3>Storytelling report</h3>
+
+I chose to focus on the decrease in sales for November 2014, with the aim to showing its causes.
+
+Possible explanations a priori for November 2014 are:
+<ul>
+  <li>Specific behaviour of the customers in terms of segment</li>
+  <li>Specific behaviour of the customers in terms of country</li>
+  <li>Specific behaviour of the sold products</li>
+  <li>Time of year</li>
+  <li>Specific discounts</li>
+  <li>Specific sale prices</li>
+  <li>Specific internal costs</li>
+  <li>Specific marketing</li>
+</ul>
+
+
+
+<span class="badge bg-secondary">Sales by Segment - 100% Stacked-area chart</span>
+
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_time_sales_segment.png)
+<div class="mt20"></div>
+
+The distribution of sales by Segment remains stable, with only little fluctuations, for the studied period - The month of November has no specific behaviour.
+
+<span class="badge bg-secondary">Sales by Country - 100% Stacked-area chart</span>
+
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_time_sales_country.png)
+<div class="mt20"></div>
+
+The distribution of sales by Country remains stable, with only little fluctuations, for the studied period - The month of November has no specific behaviour.
+
+<span class="badge bg-success">Sales by Product - 100% Stacked-area chart</span>
+
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_time_sales_product.png)
+<div class="mt20"></div>
+
+The month of November has a particularly large proportion of product 'Paseo', i.e. the money-maker: 75% of sales, while it never goes above 50% for other months.
+
+
+<span class="badge bg-secondary">Average Sale Price - Line-chart</span>
+
+As seen before, the Sale Prices for the different products vary. In particular they are shuffled over products and over time in the dataset.
+
+Notably, the Sale Price averaged over all products remains absolutely constant over the period.
+
+![webjeda cards jekyll theme]({{site.baseurl}}/images/train_finance_time_sale_price_paseo.png.png)
+<div class="mt20"></div>
+
+Viewing the evolution of the Sale Price along the period, discrimated by Product, allows to see the specific sharp increase in Sale Price for the Product 'Paseo', and for November 2014 (x4 vs. previous month).
+
+This increase in Sale Price of the money-making product might have acted as a deterrent, and might explain the drop in Sales for November 2014.
+
+It does not explain why other products of the range suffer from a drop in sales at the same month. However, the drop in sales of product 'Paseo' is steeper than for the other products.
+
+
+
+
+
 
 
