@@ -66,10 +66,15 @@ This is my understanding of the different features in the original dataset:
   <li>Segment: Category of business that products were sold to</li>
   <li>Country: Country-category of customer</li>
   <li>Product: Commercial name of sold product</li>
+  <li>Discount Band: Category of discount level</li>
+  <li>Units Sold: Number of products sold as part of one record</li>
+  <li>Manufacturing Price: Manufacturing price of one unitary product</li>
+  <li>Sale Price: Selling price of one unitary product</li>
+  <li>Gross Sales: Gross revenue (i.e. before discounts) for one aggregation of orders</li>
+  <li>Discounts: Cost of discounts for one aggregation of orders</li>
+  <li>Gross Sales: Net revenue (i.e. after discounts) for one aggregation of orders</li>
   <li>COGS: Cost of goods sold for one aggregation of orders</li>
-  <li>Discount Band: </li>
-  <li>: </li>
-  <li>: </li>
+  <li>Profit: Profit for one aggregation of orders</li>
   <li>Date: Date for the aggregated record</li>
   <li>Year: Year for the aggregated record</li>
   <li>Month Name: Month name for the aggregated record</li>
