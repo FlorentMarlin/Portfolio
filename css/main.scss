@@ -42,6 +42,10 @@ $on-laptop: 800px;
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import "layout", "custom", "syntax-highlighting";
 
+body {
+  counter-reset: h3;
+}
+
 h3 {
   counter-reset: h4;
 }
