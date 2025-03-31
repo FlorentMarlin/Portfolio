@@ -6,7 +6,7 @@ layout: compress
 <html>
   {% include head.html %}
 
-  <body>
+  <body data-bs-spy="scroll" data-bs-target="#toc">
     {% include navigation.html %}
 
     <div class="container">
@@ -32,5 +32,8 @@ layout: compress
       crossorigin="anonymous"
     ></script>
     {% if site.analytics %}{% include analytics.html %}{% endif %}
+	
+	
+	
   </body>
 </html>
