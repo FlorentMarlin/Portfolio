@@ -18,10 +18,10 @@ The present post is broken down into the two following sections:
 </ul>
 
 
-<h2>Exploratory Data Analysis</h2>
+<h4>Exploratory Data Analysis</h4>
 
 
-<h3>Preliminary Analysis</h3>
+<h5>Preliminary Analysis</h5>
 
 The dataset has 16 columns and 700 rows.
 
@@ -58,7 +58,7 @@ The order of magnitude of the number of records in the dataset (700) is in line 
 
 Given the resolution of dates (one row -> the first day of a month) and the amount of sold products on a given row (typically hundreds to thousands), each record is probably an aggregation of sales for one month, and for one combination of sales-parameters.
 
-<h4>Data dictionary</h4>
+<h6>Data dictionary</h6>
 
 This is my understanding of the different features in the original dataset:
 
@@ -77,7 +77,7 @@ This is my understanding of the different features in the original dataset:
 </ul>
 
 
-<h4>Relations between features</h4>
+<h6>Relations between features</h6>
 
 The following relations between numerical features were found again:
 <ul>
@@ -87,7 +87,7 @@ The following relations between numerical features were found again:
 </ul>
 
 
-<h4>Analysis of numerical features</h4>
+<h6>Analysis of numerical features</h6>
 
 The unit of prices and costs is not determined.
 
@@ -107,7 +107,7 @@ The columns 'Year', 'Month Name' and 'Month Number' are verified as being extrac
 
 
 
-<h4>Possible analysis</h4>
+<h6>Possible analysis</h6>
 
 The present dataset lends itself to the following types of studies
 <ul>
@@ -116,7 +116,7 @@ The present dataset lends itself to the following types of studies
 </ul>
 
 
-<h3>Analysis of revenue</h3>
+<h5>Analysis of revenue</h5>
 
 For the whole activity covered by the dataset (2013-2014):
 <ul>
@@ -145,10 +145,10 @@ For reference, Giant, the world's largest bicycle designer and manufacturer, has
 Therefore the dataset might correspond to a larger manufacturer, but the magnitude of the margin is exceptional for an industry.
 
 
-<h3>Analysis of sales over categories</h3>
+<h5>Analysis of sales over categories</h5>
 
 
-<h4>Analysis of sales over customer segments</h4>
+<h6>Analysis of sales over customer segments</h6>
 
 Customer segment considered as a category, all other features (Country, Product, Discount Band) summed.
 
@@ -174,7 +174,7 @@ The negative profit related to segment 'Enterprise' might be a concern, as it of
 It is also remarkable that the profit associated with segment 'Small Business' (25% of total) is not in line with the proportion of Sales (36%).
 
 
-<h4>Analysis of sales over countries</h4>
+<h6>Analysis of sales over countries</h6>
 
 
 <span class="badge bg-primary">Units sold by Country - Bar-chart</span>
@@ -193,7 +193,7 @@ Profits have the same magnitude for all five countries. France, Germany and Cana
 
 It might be worth taking into account the size of relative markets (e.g. using country population) to derive specific performance for individual countries.
 
-<h4>Analysis of sales over products</h4>
+<h6>Analysis of sales over products</h6>
 
 
 <span class="badge bg-success">Units sold by Product - Bar-chart</span>
@@ -217,7 +217,7 @@ The relation between Profit and Sales is similar for all 6 products, with produc
 
 
 
-<h4>Analysis of sale price</h4>
+<h6>Analysis of sale price</h6>
 
 It is understood that the Sale Price depends on the Product (i.e. type of bike)
 
@@ -255,7 +255,7 @@ No trend can be seen with the size of the target customer (i.e. there is no cont
 Possibly the pricing logic is strategic.
 
 
-<h4>Analysis of discounts</h4>
+<h6>Analysis of discounts</h6>
 
 Cumulated discounts amount to 7% of total sales.
 
@@ -286,54 +286,55 @@ Mapping the average margin percentage vs. the discount percentage by segmenting 
 
 
 
-<h3>Analysis of sales over time</h3>
-
+<h5>Analysis of sales over time</h5>
 
 Data is only available for the last third of year 2013. Hence a comparison between 2013 and 2014 is only possible for a partial year.
 
 For one given year, the magnitude of sales, and the fact that they are already aggregated, allow a representative comparison between months.
 
-<span class="badge bg-primary">Primary</span>
-<span class="badge bg-secondary">Secondary</span>
-<span class="badge bg-success">Success</span>
-<span class="badge bg-danger">Danger</span>
-<span class="badge bg-warning text-dark">Warning</span>
+<h6>Analysis of time of year</h6>
 
+The analysis of the time of year is performed at the level of the month.
+
+Since the year 2013 is incomplete in the dataset, the comparison between month is performed whiel separating years 2013 and 2014.
+
+
+<span class="badge bg-success">Sales - Bar-chart</span>
+
+For 2013, the month of October has the largest revenue.
+
+For 2014, the months of October and December have the largest revenues.
+
+
+<span class="badge bg-success">Count of sales - Bar-chart</span>
+
+Given the pre-aggregated nature of the dataset, this may or may not show the popularity of sales at moments of the year.
+
+For 2013, the month of October has the largest number of sales records.
+
+For 2014, the months of October and December and June have the largest number of sales records.
+
+<span class="badge bg-success">Units sold - Bar-chart</span>
+
+For 2013, the month of October has the largest number of units sold.
+
+For 2014, the months of October and December and June have the largest number of units sold.
+
+
+The trend observed for several figures would hint on busy Q4's, if it wasn't for the poor performance of month of November 2014.
+
+<h6>Analysis of evolution</h6>
 
 <span class="badge bg-secondary">Sales - Line-chart</span>
 A line-chart shows that sales fluctuate, with up's and down's from one month to another. No visible trend can be seen.
 
-A bar-chart shows  
+The month of November 2014 shows a specific drop in all figures: Sales (Gross and Net, Profit, Discounts).
 
-
-<span class="badge bg-success">Units sold - Bar-chart</span>
-
-<h5>Analysis of discounts</h5>
+The superimposition of the partial year 2013 with the complete year 2014 only highlights the steady performance of the month of October. 
 
 
 
 
+<h4>Storytelling report</h4>
 
 
-
-<h2>Storytelling report</h2>
-
-
-The dataset 'Olist' consists in real life e-commerce data.
-
-The following aspects were notably studied:
-<ul class="list-group">
-  <li class="list-group-item">Delivery performance</li>
-  <li class="list-group-item">Sales analysis</li>
-  <li class="list-group-item">Geospatial analysis</li>
-  <li class="list-group-item">Reviews language analysis</li>
-</ul>
-
-
-Following tools were notably used:
-<ul class="list-group">
-  <li class="list-group-item">Python</li>
-  <li class="list-group-item">Pandas</li>
-  <li class="list-group-item">Plotly</li>
-</ul>
- to 
